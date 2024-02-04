@@ -1,0 +1,13 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:named": "node  main.js --username=Friend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
