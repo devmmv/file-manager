@@ -1,6 +1,6 @@
 import { homedir } from 'os';
 import { sep } from 'path';
-import { printErrorMessage } from './messages/index.js';
+import { printErrorMessage } from '../messages/index.js';
 
 export const changeDirectory = (newDir = homedir()) => {
     const prevDir = process.cwd().split(sep).at(-1);
