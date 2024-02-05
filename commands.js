@@ -1,5 +1,6 @@
 import {
     add,
+    cat,
     changeDirectory,
     deleteFile,
     goUp,
@@ -14,4 +15,5 @@ export const commands = {
     ['up']: goUp,
     ['add']: add,
     ['rm']: deleteFile,
+    ['cat']: cat,
 }
