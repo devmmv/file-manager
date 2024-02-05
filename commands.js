@@ -2,7 +2,9 @@ import {
     add,
     cat,
     changeDirectory,
+    compress,
     copyFile,
+    decompress,
     deleteFile,
     getHash,
     goUp,
@@ -26,4 +28,6 @@ export const commands = {
     ['mv']: moveFile,
     ['os']: runOsCommands,
     ['hash']: getHash,
+    ['compress']: compress,
+    ['decompress']: decompress
 }
