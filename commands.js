@@ -8,6 +8,7 @@ import {
     listFilesAndDirectories,
     moveFile,
     renameFile,
+    runOsCommands,
 } from "./operations/index.js";
 
 export const commands = {
@@ -22,4 +23,5 @@ export const commands = {
     ['rn']: renameFile,
     ['cp']: copyFile,
     ['mv']: moveFile,
+    ['os']: runOsCommands,
 }
