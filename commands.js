@@ -2,6 +2,7 @@ import {
     add,
     cat,
     changeDirectory,
+    copyFile,
     deleteFile,
     goUp,
     listFilesAndDirectories,
@@ -18,4 +19,5 @@ export const commands = {
     ['rm']: deleteFile,
     ['cat']: cat,
     ['rn']: renameFile,
+    ['cp']: copyFile,
 }
