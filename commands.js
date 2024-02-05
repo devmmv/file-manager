@@ -6,6 +6,7 @@ import {
     deleteFile,
     goUp,
     listFilesAndDirectories,
+    moveFile,
     renameFile,
 } from "./operations/index.js";
 
@@ -20,4 +21,5 @@ export const commands = {
     ['cat']: cat,
     ['rn']: renameFile,
     ['cp']: copyFile,
+    ['mv']: moveFile,
 }
