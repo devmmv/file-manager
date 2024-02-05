@@ -23,6 +23,7 @@ export const listenInput = () => {
 
         } else {
             printErrorMessage();
+            printCurrentDir();
         }
     });
 }
