@@ -4,6 +4,7 @@ import {
     changeDirectory,
     copyFile,
     deleteFile,
+    getHash,
     goUp,
     listFilesAndDirectories,
     moveFile,
@@ -24,4 +25,5 @@ export const commands = {
     ['cp']: copyFile,
     ['mv']: moveFile,
     ['os']: runOsCommands,
+    ['hash']: getHash,
 }
