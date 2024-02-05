@@ -1,6 +1,7 @@
 import {
     add,
     changeDirectory,
+    deleteFile,
     goUp,
     listFilesAndDirectories,
 } from "./operations/index.js";
@@ -12,4 +13,5 @@ export const commands = {
     ['cd']: changeDirectory,
     ['up']: goUp,
     ['add']: add,
+    ['rm']: deleteFile,
 }
