@@ -1,5 +1,5 @@
 import os from 'os';
-import { printErrorMessage } from '../messages/index.js';
+import { printFailedMessage } from '../messages/index.js';
 
 export const runOsCommands = (prop) => {
     switch (prop) {
@@ -18,6 +18,6 @@ export const runOsCommands = (prop) => {
         case '--architecture':
             console.log((os.arch()));
             break;
-        default: printErrorMessage();
+        default: printFailedMessage();
     }
 }

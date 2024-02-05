@@ -1,6 +1,6 @@
 import { homedir } from 'os';
 import { sep } from 'path';
-import { printErrorMessage } from '../messages/index.js';
+import { printFailedMessage } from '../messages/index.js';
 
 export const changeDirectory = (newDir = homedir()) => {
     const prevDir = process.cwd().split(sep).at(-1);
@@ -10,7 +10,7 @@ export const changeDirectory = (newDir = homedir()) => {
 
         } catch (error) {
             if (error.code === 'ENOENT') {
-                printErrorMessage()
+                printFailedMessage();
             }
         }
     }
